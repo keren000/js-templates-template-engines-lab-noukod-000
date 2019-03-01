@@ -9,8 +9,8 @@
             <form id="post-form" onSubmit="createPost()">
               <script id="page-template" type="text/x-lodash-template">
 <<<<<<< HEAD
-                <div id="sidebar">Sidebar</div>
-                <div id="post">Post</div>
+                <div id="sidebar"><%- sidebar %></div>
+                <div id="post"><%- post %></div>
 =======
                 <div id="sidebar"></div>
                 <div id="post"></div>
@@ -35,7 +35,7 @@
        <script id="comments-template" type="text/x-lodash-template">
         <form onsubmit="postComment()">
 <<<<<<< HEAD
-          <div id="comments"><i>Comments</i></div>
+          <div id="comments"><i><%- comment %></i></div>
 =======
           <div id="comments"></div>
 >>>>>>> 0163ee3b43cde8b0efc23a884430d7e20fd630b8
