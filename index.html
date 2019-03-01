@@ -8,8 +8,8 @@
     <main>
             <form id="post-form" onSubmit="createPost()">
               <script id="page-template" type="text/x-lodash-template">
-                <div id="sidebar"></div>
-                <div id="post"></div>
+                <div id="sidebar">Sidebar</div>
+                <div id="post">Post</div>
               </script>
             </form>
     </main>
@@ -17,14 +17,14 @@
     <article>
       <script id="post-template" type="text/x-lodash-template">
         <article>
-          <header>Post Title</header>
-          <footer>Post Author</footer>
+          <header><b>PostTitle</b></header>
+          <footer><b>PostAuthor</b></footer>
         </article>
       </script>
 
        <script id="comments-template" type="text/x-lodash-template">
         <form onsubmit="postComment()">
-          <div id="comments"></div>
+          <div id="comments"><i>Comments</i></div>
         </form>
       </script>
 
